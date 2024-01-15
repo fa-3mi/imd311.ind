@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> The Website </title>
+</head>
+
+<BODY bgcolor="black"> 
+	<font color="yellow">
+	<h1 align="center">
+		GALLERY
+	</h1>
+</BODY> 
+<hr>
+
+<h1> Movies> </h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .float-container {
+            float: left;
+            width: 50%;
+            box-sizing: border-box;
+            padding: 0 20px;
+        }
+
+        .float-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .text-container {
+            float: left;
+            width: 50%;
+            box-sizing: border-box;
+            padding: 0 20px;
+        }
+
+        @media (max-width: 600px) {
+            .float-container,
+            .text-container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="float-container">
+            <img src="aprilstory.jpg" alt="Image 1">
+        </div>
+        <div class="text-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna nec odio consectetur vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer ac ante vel justo tincidunt fermentum.</p>
+        </div>
+        <div class="float-container">
+            <img src="image2.jpg" alt="Image 2">
+        </div>
+        <div class="text-container">
+            <p>Proin vel velit quis quam congue iaculis. Quisque ut libero nec justo commodo consequat. Duis facilisis lacinia sem, vel bibendum tortor laoreet nec. Ut tristique sapien id nulla tincidunt, a blandit leo tincidunt.</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
